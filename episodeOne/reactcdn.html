@@ -16,5 +16,19 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <!-- second link is the react liberary for dom operations  or modify dom (console ReactDOM)-->
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+
+    <!-- writting react code  -->
+    <script>
+        // creating h1 tag in react accessed using first link(in vanilla we use document.createElement )
+        const heading = React.createElement('h1' , {} , "HELLO WORLD");
+
+        // to put this heading in root as children
+        // we will tell react which is our root where data will render and do dom manipulation
+        // accessed using second cdn link
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        // for redering the data and display it in ui
+        root.render(heading);
+    </script>
 </body>
 </html>
