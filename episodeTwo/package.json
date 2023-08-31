@@ -1,0 +1,14 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "new project created",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "shashwath",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
