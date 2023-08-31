@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+       
+    </div>
+
+    <script>
+        //creating h1 tag inside javascript (createElement is an api) 
+        // browser has these innerHtml , createElement , appendChild
+        const heading = document.createElement('h1');
+        heading.innerHTML = "Hello World";
+ 
+        // get reference to the above div tab : 
+        const root = document.getElementById('root');
+
+        //function in js called append child to call
+        root.appendChild(heading);
+
+     </script>
+</body>
+</html>
