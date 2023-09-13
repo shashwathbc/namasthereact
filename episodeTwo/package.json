@@ -1,14 +1,22 @@
 {
-  "name": "y",
+  "name": "episodetwo",
   "version": "1.0.0",
-  "description": "new project created",
-  "main": "index.js",
+  "description": "First Time Creating React App Using Parcel",
+  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/shashwathbc/namasthereact.git)"
+  },
+  "keywords": [
+    "react",
+    "shashwath"
+  ],
   "author": "shashwath",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "parcel": "^2.9.3"
   }
 }
