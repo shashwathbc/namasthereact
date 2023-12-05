@@ -1,0 +1,17 @@
+.main_HomeContainer{
+    padding: 10px;
+}
+
+.search{
+    width: 100%;
+}
+.search_Input{
+   width: 90%;
+   padding: 15px;
+}
+
+.search_Buttton{
+    background-color: #454545;
+    border: none;
+    padding: 16px;
+}
