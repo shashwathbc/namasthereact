@@ -2,21 +2,86 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    margin-left: 20px;
-}
-.product_Card{
+    margin-left: 20px; 
     margin-top: 20px;
-    border: 2px solid #454545;
-    width: min-content;
-    display: flex;
-    border-radius: 25px;
+}
+
+.product_Card{
+    display: grid;
+    transition: all 0.05s ease 0s;
+    cursor: pointer;
+    gap: 12px;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    -webkit-box-align: center;
     align-items: center;
-    flex-direction: column;
-    background-color: white;
-    color: #454545;
-    padding: 18px;
+    padding: 0px;
+    width: 75%;
+}
+
+.product_Card:hover{
+    transform: scale(0.95, 0.95);
+    transform-origin: center center;
+    transition: all 0.1s ease-in 0s;
+}
+
+.product_Detail{
+    margin-left: 25px;
 }
 
 .product_Image{
-    width: 180px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+    top: 0px;
+    left: 0px;
+
+}
+
+.product_Image::before{
+    content: "";
+    height: 0px;
+    display: block;
+    padding-top: calc(66.6667%);
+}
+
+.product_Name{
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Basis Grotesque Pro";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    overflow-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.rating_AndTimeTaken{
+    display: grid;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 2px;
+    gap: 2px;
+    grid-auto-flow: column;
+    -webkit-box-pack: start;
+    justify-content: start;
+}
+
+.product_Info{
+    display: grid;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 2px;
+    gap: 2px;
 }

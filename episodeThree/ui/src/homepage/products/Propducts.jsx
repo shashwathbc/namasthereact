@@ -6,7 +6,7 @@ export const Propducts = () => {
   
   return (
     <div className="main_ProductContainer">
-        <div className="product_Card">
+       <div className="product_Card">
     <div>
       <img src={productImg} alt="product Image" className='product_Image' />
     </div>
@@ -17,8 +17,8 @@ export const Propducts = () => {
       <div className="rating">4.1</div>
       <div className="time_Taken">25 mins</div>
     </div>
-    <div className="product_Info">
-      <p>Pizza , Italian , Desserts , Daryajan</p>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
     </div>
 </div>
 
@@ -33,8 +33,8 @@ export const Propducts = () => {
       <div className="rating">4.1</div>
       <div className="time_Taken">25 mins</div>
     </div>
-    <div className="product_Info">
-      <p>Pizza , Italian , Desserts , Daryajan</p>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
     </div>
 </div>
 
@@ -49,8 +49,8 @@ export const Propducts = () => {
       <div className="rating">4.1</div>
       <div className="time_Taken">25 mins</div>
     </div>
-    <div className="product_Info">
-      <p>Pizza , Italian , Desserts , Daryajan</p>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
     </div>
 </div>
 
@@ -65,10 +65,138 @@ export const Propducts = () => {
       <div className="rating">4.1</div>
       <div className="time_Taken">25 mins</div>
     </div>
-    <div className="product_Info">
-      <p>Pizza , Italian , Desserts , Daryajan</p>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
     </div>
 </div>
+
+<div className="product_Card">
+    <div>
+      <img src={productImg} alt="product Image" className='product_Image' />
     </div>
+    <div className="product_Name">
+      Dominos's Pizza 
+    </div>
+    <div className="rating_AndTimeTaken">
+      <div className="rating">4.1</div>
+      <div className="time_Taken">25 mins</div>
+    </div>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
+    </div>
+</div>
+
+<div className="product_Card">
+    <div>
+      <img src={productImg} alt="product Image" className='product_Image' />
+    </div>
+    <div className="product_Name">
+      Dominos's Pizza 
+    </div>
+    <div className="rating_AndTimeTaken">
+      <div className="rating">4.1</div>
+      <div className="time_Taken">25 mins</div>
+    </div>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
+    </div>
+</div>
+
+<div className="product_Card">
+    <div>
+      <img src={productImg} alt="product Image" className='product_Image' />
+    </div>
+    <div className="product_Name">
+      Dominos's Pizza 
+    </div>
+    <div className="rating_AndTimeTaken">
+      <div className="rating">4.1</div>
+      <div className="time_Taken">25 mins</div>
+    </div>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
+    </div>
+</div>
+
+<div className="product_Card">
+    <div>
+      <img src={productImg} alt="product Image" className='product_Image' />
+    </div>
+    <div className="product_Name">
+      Dominos's Pizza 
+    </div>
+    <div className="rating_AndTimeTaken">
+      <div className="rating">4.1</div>
+      <div className="time_Taken">25 mins</div>
+    </div>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
+    </div>
+</div>
+
+<div className="product_Card">
+    <div>
+      <img src={productImg} alt="product Image" className='product_Image' />
+    </div>
+    <div className="product_Name">
+      Dominos's Pizza 
+    </div>
+    <div className="rating_AndTimeTaken">
+      <div className="rating">4.1</div>
+      <div className="time_Taken">25 mins</div>
+    </div>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
+    </div>
+</div>
+
+<div className="product_Card">
+    <div>
+      <img src={productImg} alt="product Image" className='product_Image' />
+    </div>
+    <div className="product_Name">
+      Dominos's Pizza 
+    </div>
+    <div className="rating_AndTimeTaken">
+      <div className="rating">4.1</div>
+      <div className="time_Taken">25 mins</div>
+    </div>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
+    </div>
+</div>
+
+<div className="product_Card">
+    <div className=''>
+      <img src={productImg} alt="product Image" className='product_Image' />
+    </div>
+    <div className="product_Name">
+      Dominos's Pizza 
+    </div>
+    <div className="rating_AndTimeTaken">
+      <div className="rating">4.1</div>
+      <div className="time_Taken">25 mins</div>
+    </div>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
+    </div>
+</div>
+
+<div className="product_Card">
+    <div>
+      <img src={productImg} alt="product Image" className='product_Image' />
+    </div>
+    <div className="product_Name">
+      Dominos's Pizza 
+    </div>
+    <div className="rating_AndTimeTaken">
+      <div className="rating">4.1</div>
+      <div className="time_Taken">25 mins</div>
+    </div>
+    <div>
+      <p className='product_Info'>Pizza , Italian , Desserts , Daryajan Pizza , Italian , Desserts , Daryajan</p>
+    </div>
+</div>
+       </div>
   )
 }
