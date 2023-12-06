@@ -15,3 +15,44 @@
     border: none;
     padding: 16px;
 }
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search_Input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.search_Button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #4caf50; /* Green color, you can customize */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Optional: Add media queries for responsiveness */
+@media screen and (min-width: 600px) {
+    .search {
+        flex-direction: row;
+    }
+
+    .search_Input {
+        width: auto;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .search_Button {
+        width: auto;
+    }
+}

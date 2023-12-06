@@ -75,3 +75,31 @@
     word-break: break-all;
   }
   
+
+  @media screen and (max-width: 1488px) {
+    .main_ProductContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin-left: 20px; 
+        margin-top: 20px;
+    }
+    
+  }
+  @media screen and (max-width: 1119px) {
+    .main_ProductContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin-left: 20px; 
+        margin-top: 20px;
+    }
+    
+  }
+  @media screen and (max-width: 774px) {
+    .main_ProductContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+  }
