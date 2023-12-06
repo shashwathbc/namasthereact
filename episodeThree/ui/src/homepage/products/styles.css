@@ -30,11 +30,9 @@
 }
 
 .product_Image{
-    width: 100%;
-    height: 100%;
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 293px;
     border-radius: 16px;
     overflow: hidden;
     filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
@@ -68,20 +66,12 @@
 }
 
 .rating_AndTimeTaken{
-    display: grid;
-    -webkit-box-align: center;
-    align-items: center;
-    margin-top: 2px;
-    gap: 2px;
-    grid-auto-flow: column;
-    -webkit-box-pack: start;
-    justify-content: start;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
-.product_Info{
-    display: grid;
-    -webkit-box-align: center;
-    align-items: center;
-    margin-top: 2px;
-    gap: 2px;
-}
+.product_Info {
+    word-break: break-all;
+  }
+  
